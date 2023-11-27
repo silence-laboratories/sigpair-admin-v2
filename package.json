@@ -1,0 +1,16 @@
+{
+  "name": "sigpair-admin-v2",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "axios": "^1.6.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
