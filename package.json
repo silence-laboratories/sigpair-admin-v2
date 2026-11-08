@@ -2,9 +2,16 @@
   "name": "sigpair-admin-v2",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.5",
     "axios": "^1.6.2",
     "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.0",
+    "typescript": "5.8.3"
   }
 }
